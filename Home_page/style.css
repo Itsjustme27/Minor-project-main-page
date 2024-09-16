@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+.card {
+    display: flex;
+    width: 590px;
+    height: 380px;
+    flex-direction: row !important;
+    border: none !important;
+    margin: 0 0 20px 0;
+    gap: 10px;
+}
+  
+  .image-container {
+    width: 150%;
+    height: 100%;
+  }
+  
+  .image-container img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    position: absolute;
+    z-index: 9999;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  .info {
+    width: 80%;
+    height: 85%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    clip-path: polygon(0 100%, 30% 0, 100% 0%, 100% 100%);
+    position: relative;
+}
+  
+  .info h3 {
+    margin: 60px 0 0 150px;
+    font-size: 2rem;
+  }
+  
+  .price {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin: 10px 0 0 150px;
+  }
+
+  .d-flex {
+    display: flex;
+    gap: 10px;
+  }
+
+.buttonss {
+  margin:  0 0 0 105px;
+}
+.p1 {
+     top: 200px;
+     left:330px;
+     width:100px;
+}
+  
+.p2 {
+
+     top:106px;
+     left:140px;
+     width: 150px;
+}
+  
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Sansita Swashed", system-ui;
+        }
+
+        .top {
+            background: #BA9B65;
+            width: auto;
+            height: 30px;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 28px;
+            background: linear-gradient(#D9D9D9, #737373);
+            width: 270px;
+        }
+
+        .srch {
+            font-size: 16px;
+            color: #BA9B65;
+            margin-left: 14px;
+            outline: none;
+            border: none;
+            background: transparent;
+        }
+
+        .Login {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px;
+            background: linear-gradient(#D9D9D9, #737373);
+            width: 100px;
+        }
+
+        .flex {
+            display: flex;
+            gap: 20px;
+        }
+
+        .color {
+            background: linear-gradient(#131313, #1C1C1C, #2B2B2B);
+            height: 95px;
+        }
+
+        .a.nav-link.active {
+            color: #BA9B65;
+        }
+
+        .a.nav-link {
+            color: #BA9B65;
+        }
+
+        /* section1 start*/
+        #hero {
+            width: auto;
+            height: 445px;
+            background: linear-gradient(#1E1E1E, #848484);
+        }
+
+        .bg {
+            color: white;
+        }
+
+        #hero-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .front {
+            font-size: 65px;
+            text-align: center;
+            padding: 70px;
+        }
+
+        .img {
+            transform: rotate(20deg);
+        }
+
+        /*section1 end*/
+        /*section2 start*/
+        #bg1 {
+            width: auto;
+            height: 565px;
+            /*background-color: #242424;  background: #BA9B65;*/
+            background: linear-gradient(#848484,#1E1E1E);
+            color: #fff;
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .length {
+            margin-top: 20px;
+            padding: 57px;
+            line-height: 25px;
+        }
+
+        .fwsize {
+
+            padding: 10px;
+            line-height: 30px;
+            margin: 25px;
+
+        }
+
+        /*section2 end*/
+
+        /* section 3 Start */
+        .restrobar {
+            padding: 90px;
+        }
+
+        .fsize {
+            padding: 20px;
+            line-height: 35px;
+            margin: 65px;
+        }
+
+        /* Section3 End */
+
+        /* Section4 Start */
+        .position {
+            position: relative;
+            bottom: 150px;
+            left: 100px;
+            color: #fff;
+            font-size: 25px;
+        }
+
+        .position1 {
+            position: relative;
+            bottom: 200px;
+            left: 800px;
+            color: black;
+            width: 200px;
+        }
+
+        /* Section4 End */
+        /* Footer Start */
+        .foot {
+            background-color: #242424;
+            color: #fff;
+            height: 250px;
+        }
+
+        /*  Footer End */
